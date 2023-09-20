@@ -64,8 +64,6 @@ splash.append(bg_sprite)
 
 #run while true
 while True:
-#    print("hello")
-#    print(round(size_value))
     time.sleep(.1)
     #read anaglog joystick input
     current_joy_x = ss.analog_read(3)
